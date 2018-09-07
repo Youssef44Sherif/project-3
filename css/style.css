@@ -1,3 +1,6 @@
+*{
+    transition: all 0.2s ease-in-out 0s
+}
 html, body{
     height: 100%;
     width: 100%
@@ -45,6 +48,12 @@ a{
     padding: 14px 16px;
     margin: 0 10px;
     text-decoration: none;
+    
+    
+}
+a:hover{
+    font-size: xx-large;
+    color: #000
 }
 article {
     max-width: 500px;
@@ -70,4 +79,75 @@ footer{
     text-align: center;
     height: 41px;
     padding-top: 11px;
+}
+.up-arrow{
+  position: fixed;
+    bottom: 0px;
+    opacity: 1;
+    cursor: pointer;  
+    float: right;
+    margin: 15px 20px; 
+    transition: 3s
+}
+.ico{
+    background: #404040;
+    background: rgba(64, 64, 64, 0.75);
+    border-radius: 4px 4px 4px 4px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1040;
+    font-size: 40px;
+    padding-top: 5px;
+    
+}
+@media screen and (max-width: 500px){
+    header img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        transition: 50s
+    }
+    header ul li{
+        display: block;
+        margin: 10px 0px;
+        background-color: #2a8a468a;
+        padding: 12px 12px
+    }
+    header ul{
+        background: none
+        
+    }
+    p{
+        text-align: justify;
+        text-shadow: .5px, .5px, .5px, black
+    }
+    .up-arrow{
+    position: fixed;
+    bottom: 0px;
+    opacity: 1;
+    cursor: pointer;  
+    float: right;
+    margin: 15px 20px; 
+    transition: 3s
+    }
+    .ico{
+    background: #404040;
+    background: rgba(64, 64, 64, 0.75);
+    border-radius: 4px 4px 4px 4px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1040;
+    font-size: 30px;
+    padding-top: 5px;
+    
+    }
+
 }

@@ -5,6 +5,8 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                
+            <link rel="shortcut icon" href="assets/unaitedstates.png" type="image/x-icon" />    
             <link rel="stylesheet" href="css/animate.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
             <link rel="stylesheet" href="css/style.css">
@@ -18,10 +20,10 @@
             background-size: cover;
             '>
             <header>
-                <img class="animated rotateIn" src="assets/unaitedstates.jpg" alt="utaited state">
+                <img class="animated rotateIn" id='img' src="assets/unaitedstates.jpg" alt="utaited state">
                 <h1 class="animated flash">United States</h1>
                 <ul class='animated bounceInUp '>
-                    <li><a href='#'>Home</a></li>
+                    <li><a href='#home'>Home</a></li>
                     
                     <li><a href='#'>About</a></li>
                     
@@ -31,7 +33,7 @@
                     
                 </ul>
             </header>
-            <article>
+            <article id="home">
                 <h2 class='animated bounceInLeft'>The United States of America (USA)</h2>
                 <p class='animated bounceInRight'>
                    The United States is a founding
@@ -93,7 +95,7 @@
             
             <article>
                 <h2 class='animated bounceInLeft'>The United States of America (USA)</h2>
-                <p class='animated bounceInRight'>
+                <p class='animated bounceInRight'>  
                    The United States is a founding
                    member of the United Nations, World Bank,
                    International Monetary Fund, Organization of American States (OAS),
@@ -105,6 +107,10 @@
                 </p>
                 <button>Like <i class="fas fa-heart"></i></button>
             </article>
+            <div class='up-arrow'>
+                <i class="fas fa-angle-up ico"><a href="#img"></a></i>
+                      
+            </div>
             <footer>Yousif &copy; 2018</footer>
         </body>
     </html>
